@@ -12,14 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from kebab device
 $(call inherit-product, device/oneplus/kebab/device.mk)
 
-# Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common BananaDroid stuff.
+$(call inherit-product, vendor/banana/config/common.mk)
 
-EXTRA_UDFPS_ANIMATIONS := true
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_QUICK_TAP := true
-
-PRODUCT_NAME := evolution_kebab
+PRODUCT_NAME := banana_kebab
 PRODUCT_DEVICE := kebab
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -36,3 +32,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 BUILD_FINGERPRINT := OnePlus/OnePlus8T/OnePlus8T:13/RKQ1.211119.001/R.ed8c2c_1_2:user/release-keys
+
+# Banana Flag
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_HAS_UDFPS := true
+TARGET_BOOT_ANIMATION_RES := 1080
+BUILD_CORE_GAPPS := true
+WITH_GAPPS := true
+BANANA_MAINTAINER := Addy

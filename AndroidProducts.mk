@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_kebab.mk
+    $(LOCAL_DIR)/banana_kebab.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_kebab-user \
-    evolution_kebab-userdebug \
-    evolution_kebab-eng
+    banana_kebab-user \
+    banana_kebab-userdebug \
+    banana_kebab-eng
