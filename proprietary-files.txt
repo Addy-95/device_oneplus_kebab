@@ -61,41 +61,6 @@ odm/vendor/firmware/gfp9678.b06
 odm/vendor/firmware/gfp9678.b07
 odm/vendor/firmware/gfp9678.mdt
 
-# Iris
-odm/etc/inparm/irissoft/inParm.lst
-odm/etc/inparm/irissoft/inParm1.txt
-odm/etc/inparm/irissoft/inParm10.txt
-odm/etc/inparm/irissoft/inParm11.txt
-odm/etc/inparm/irissoft/inParm12.txt
-odm/etc/inparm/irissoft/inParm13.txt
-odm/etc/inparm/irissoft/inParm13_low_brightness.txt
-odm/etc/inparm/irissoft/inParm14.txt
-odm/etc/inparm/irissoft/inParm14_low_brightness.txt
-odm/etc/inparm/irissoft/inParm15.txt
-odm/etc/inparm/irissoft/inParm15_low_brightness.txt
-odm/etc/inparm/irissoft/inParm16.txt
-odm/etc/inparm/irissoft/inParm16_low_brightness.txt
-odm/etc/inparm/irissoft/inParm17.txt
-odm/etc/inparm/irissoft/inParm17_low_brightness.txt
-odm/etc/inparm/irissoft/inParm18.txt
-odm/etc/inparm/irissoft/inParm18_low_brightness.txt
-odm/etc/inparm/irissoft/inParm2.txt
-odm/etc/inparm/irissoft/inParm3.txt
-odm/etc/inparm/irissoft/inParm4.txt
-odm/etc/inparm/irissoft/inParm4_low_brightness.txt
-odm/etc/inparm/irissoft/inParm5.txt
-odm/etc/inparm/irissoft/inParm5_low_brightness.txt
-odm/etc/inparm/irissoft/inParm6.txt
-odm/etc/inparm/irissoft/inParm6_low_brightness.txt
-odm/etc/inparm/irissoft/inParm7.txt
-odm/etc/inparm/irissoft/inParm7_low_brightness.txt
-odm/etc/inparm/irissoft/inParm8.txt
-odm/etc/inparm/irissoft/inParm8_low_brightness.txt
-odm/etc/inparm/irissoft/inParm9.txt
-odm/etc/inparm/irissoft/inParm9_low_brightness.txt
-odm/etc/inparm/irissoft/mcfCheck.txt
-odm/etc/irissoft.fw
-
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
 vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc
