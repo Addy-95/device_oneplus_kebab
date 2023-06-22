@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_kebab.mk
+    $(LOCAL_DIR)/colt_kebab.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_kebab-user \
-    spark_kebab-userdebug \
-    spark_kebab-eng
+    colt_kebab-user \
+    colt_kebab-userdebug \
+    colt_kebab-eng
